@@ -1,0 +1,11 @@
+[mqtt]
+hostname = mqtt.nrgmntr.com
+port = 1883
+username = xxxxxx
+password = yyyyyy
+#topics = feed/200242, feed/200267
+topics = feed/+
+
+[influx]
+url = http://vm1:8086/write?db=raw&precision=s
+#batchsize = 20
